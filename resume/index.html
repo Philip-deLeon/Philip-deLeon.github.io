@@ -3,54 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <title>Philip de Leon — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1 class="name">Philip de Leon</h1>
-        <p>4144 11th Ave NE | 253-244-1736 | pleon@uw.edu</p>
-        <a href="www.linkedin.com/in/philip-d-349977294">LinkedIn</a>
-    </header>
 
-    <section id="summary">
-        <h2>Summary</h2>
-        <p>Hello! I am a Senior Student @ the University of Washington studying Geography: Data Science with a focus of GIS</p>
-    </section>
-    
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Senior Geography Student @ University of Washington</h3>
-            <ul>
-                <li>The financial officer for the GeoDat RSO</li>
-            </ul>
-        </div>
-        <blockquote>
-            <p>"A bird sitting on a tree is never afraid of the branch breaking, because her trust is not on the branch but on her own wings."</p>
-            <footer>— Charles Wadlin</footer>
-        </blockquote>
-    </section>
-    
-    <section id="education">
-        <h2>Education</h2>
-        <div class="school">
-            <h3>Bachelor of Arts - Geography: Data Science - University of Washington - Seattle</h3>
-            <p>Seattle | June 2026</p>
-        </div>
-    </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
+    <div class="grain"></div>
+
+    <nav>
+        <span class="nav-logo">PDL</span>
         <ul>
-            <li>QGIS</li>
-            <li>ArcMaps</li>
-            <li>Front-end Development</li>
+            <li><a href="#summary">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
         </ul>
+    </nav>
+
+    <!-- HERO / PROFILE CARD -->
+    <section id="hero">
+        <div class="hero-inner">
+            <div class="profile-card">
+                <div class="profile-img-wrap">
+                    <img src="img/Philip-deLeon.jpg" alt="Philip de Leon" class="profile-img">
+                </div>
+                <div class="profile-info">
+                    <p class="profile-label">Geography & Data Science</p>
+                    <h1>Philip<br><em>de Leon</em></h1>
+                    <p class="profile-sub">GIS Specialist · University of Washington</p>
+                    <div class="contact-row">
+                        <a href="mailto:pleon@uw.edu">pleon@uw.edu</a>
+                        <span class="dot">·</span>
+                        <a href="tel:2532441736">253-244-1736</a>
+                        <span class="dot">·</span>
+                        <a href="https://www.linkedin.com/in/philip-d-349977294" target="_blank">LinkedIn ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
+
+    <!-- SUMMARY -->
+    <section id="summary">
+        <div class="section-inner">
+            <span class="section-tag">About</span>
+            <p class="section-body">
+                Senior student at the University of Washington studying Geography: Data Science with a focus on GIS. Passionate about using spatial analysis and data to understand the world.
+            </p>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <section id="quote">
+        <div class="quote-inner">
+            <blockquote>
+                "A bird sitting on a tree is never afraid of the branch breaking, because her trust is not on the branch but on her own wings."
+            </blockquote>
+            <cite>— Charles Wadlin</cite>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+        <div class="section-inner">
+            <span class="section-tag">Experience</span>
+            <div class="entry">
+                <div class="entry-meta">
+                    <span class="entry-date">2023 — Present</span>
+                </div>
+                <div class="entry-content">
+                    <h3>Senior Geography Student</h3>
+                    <p class="entry-place">University of Washington</p>
+                    <ul>
+                        <li>Financial Officer for the GeoDat RSO</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+        <div class="section-inner">
+            <span class="section-tag">Education</span>
+            <div class="entry">
+                <div class="entry-meta">
+                    <span class="entry-date">June 2026</span>
+                </div>
+                <div class="entry-content">
+                    <h3>Bachelor of Arts</h3>
+                    <p class="entry-place">Geography: Data Science — University of Washington, Seattle</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+        <div class="section-inner">
+            <span class="section-tag">Skills</span>
+            <div class="skills-grid">
+                <div class="skill-pill">QGIS</div>
+                <div class="skill-pill">ArcMaps</div>
+                <div class="skill-pill">Front-end Development</div>
+                <div class="skill-pill">GIS</div>
+                <div class="skill-pill">Spatial Analysis</div>
+                <div class="skill-pill">Data Science</div>
+            </div>
+        </div>
+    </section>
+
     <footer>
-        <p>Philip de Leon</p>
+        <p>© 2026 Philip de Leon · Seattle, WA</p>
     </footer>
+
 </body>
 </html>
