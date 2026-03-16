@@ -5,7 +5,9 @@ body {
     padding: 20px;
     background-color: #000000;
 }
-
+body {
+    background-color: #f0f0f0; /* Light gray background for testing */
+}
 h1, h2, h3 {
     color: #333;
 }
