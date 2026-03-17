@@ -1,4 +1,3 @@
-/* ── Reset & Base ── */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
@@ -23,7 +22,6 @@ body {
     position: relative;
 }
 
-/* Grain overlay */
 .grain {
     pointer-events: none;
     position: fixed;
@@ -35,7 +33,6 @@ body {
     background-size: 128px 128px;
 }
 
-/* ── Nav ── */
 nav {
     display: flex;
     align-items: center;
@@ -74,7 +71,6 @@ nav ul a {
 
 nav ul a:hover { color: var(--dark); }
 
-/* ── Hero ── */
 #hero {
     min-height: 90vh;
     display: flex;
@@ -158,7 +154,6 @@ nav ul a:hover { color: var(--dark); }
 
 .dot { color: var(--border); }
 
-/* ── Sections ── */
 section { padding: 5rem 4rem; }
 
 .section-inner {
@@ -186,7 +181,6 @@ section { padding: 5rem 4rem; }
     line-height: 1.8;
 }
 
-/* ── Quote ── */
 #quote {
     background: var(--accent);
     padding: 5rem 4rem;
@@ -214,7 +208,6 @@ section { padding: 5rem 4rem; }
     font-style: normal;
 }
 
-/* ── Entries ── */
 .entry {
     display: grid;
     grid-template-columns: 140px 1fr;
@@ -253,7 +246,6 @@ section { padding: 5rem 4rem; }
 
 .entry-content ul li { margin-bottom: 0.25rem; }
 
-/* ── Skills ── */
 #skills { background: #f0ebe0; }
 
 .skills-grid {
@@ -281,7 +273,6 @@ section { padding: 5rem 4rem; }
     cursor: default;
 }
 
-/* ── Footer ── */
 footer {
     padding: 2.5rem 4rem;
     border-top: 1px solid var(--border);
@@ -290,13 +281,11 @@ footer {
     color: var(--muted);
 }
 
-/* ── Animation ── */
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(24px); }
     to   { opacity: 1; transform: translateY(0); }
 }
 
-/* ── Responsive ── */
 @media (max-width: 700px) {
     nav { padding: 1.25rem 1.5rem; }
     nav ul { gap: 1rem; }
